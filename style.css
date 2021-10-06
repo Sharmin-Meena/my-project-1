@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    height: 100vh;
+    
+}
+.navber-style{
+    box-shadow: 0 5px 10px #aa3333;
+    background-color: darkcyan;
+}
+.logo{
+    height: 50px;
+    padding: 2px 10px;
+    width: 200px;
+}
+.icon-bar{
+    background:#aa3333
+}
+.nav li a{
+    color:white;
+   
+}
+.big-text{
+    font-size: 40px;
+    margin: 20px 0;
+    color: darkcyan;
+}
+a.btn-first{
+    background-color: lightblue;
+    color: darkcyan;
+}
+a.btn:hover{
+    background:lightblue;
+    border: none;
+    color: #ffffff9c;
+    box-shadow: 5px 5px 10px #999;
+    transition: 0.3s;
+}
+.banner-info, .banner-image{
+    margin: 30px 0;
+}
+.container h2{
+    color: darkcyan;
+}
+.container h4{
+    color: darkcyan;
+    font-weight: 100;
+}
+.container h3{
+    color: #569856;
+}
+.follow li{
+    display: inline;
+    list-style: none;
+    margin: 20px;
+    background: lightblue;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .contact {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+.footer {
+    width: 100%;
+    float: left;
+    text-align: center;
+    background:darkcyan;
+    color: #ffffff;
+    padding: 20px 0;
+    margin: 10px;
+}
